@@ -1,0 +1,35 @@
+body{
+    justify-items: center;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.button-div{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    border: 5px solid black;
+    justify-items: center;
+    min-width: 200px;
+    min-height: 50px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.button-emotion{
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.paragraph-emotion{
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
